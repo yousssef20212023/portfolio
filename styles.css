@@ -1,0 +1,82 @@
+body {
+  display: contents;
+  font-family: Calibri, sans-serif;
+}
+
+html {
+  width: 100%;
+}
+p, div, h1, h2, h3, h4, h5, h6 {
+  font-family: Calibri, sans-serif;
+}
+
+.style-paragraphe1{
+  background-color: #93a1a8;
+}
+.style-paragraphe2{
+font-size: 4rem;
+}
+.style-paragraphe3{
+  font-size: 40px;
+  padding: 1em;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+}
+.style-paragraphe4{
+  background-color: #93a1a8;
+  padding: 10px;
+}
+.nom{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+.nom1{
+  color: white;
+  text-align: center;
+  font-size: 8rem;
+}
+.nom2{
+  color: white;
+  text-align: center;
+  font-size: 8rem;
+}
+.style-competences{
+  color : #435966;
+}
+.style-partie{
+  font-weight: bold;
+}
+.style-ul1 {
+  color: white;
+  list-style-type: none;
+  font-size: 4rem;
+  text-align: center;
+}
+.taille{
+  padding: 20px;
+  display: flex;
+}
+.titre{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.conteneur-flex {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+}
+.div20 {
+  flex: 0 0 20%; 
+  background-color: #435966;
+}
+
+.div80 {
+  flex: 0 0 80%;
+}
+.taille-texte{
+width: 100%;
+padding: 0 10rem;
+}
