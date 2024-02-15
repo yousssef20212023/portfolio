@@ -94,14 +94,9 @@ font-size: 4rem;
   .container {
     max-width: 768px;
   }
-
-  p, div, h1, h2, h3, h4, h5, h6, section, li {
-    font-family: Calibri, sans-serif;
-    font-size: 1rem; /* ajustez selon vos besoins */
-  }
 }
 
-@media (max-width: 932px) {
+@media (max-width: 768px) {
   .container {  width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -130,7 +125,7 @@ font-size: 4rem;
     flex: 100%;
   }
   .nom{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .nom1{
   font-size: 2rem;
@@ -139,18 +134,89 @@ font-size: 4rem;
   width: 100%;
 }
 .nom2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 }
 
-@media (max-width: 640px) {
-  .container {
-    max-width: 475px;
+@media (max-width: 768px) {
+  .container {  w
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    max-width: 640px;
+    flex-wrap: wrap;
   }
+  logo{
+    width: 40px; 
+    height: 40px;
+  }
+  .conteneur-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .div20 {
+    flex: 100%;
+    background-color: #435966;
+  }
+  
+  .div80 {
+    flex: 100%;
+  }
+  .nom{
+    font-size: 1rem;
+}
+.nom1{
+  font-size: 2rem;
+}
+.taille-texte {
+  width: 100%;
+}
+.nom2 {
+  font-size: 3rem;
+}
 }
 
 @media (max-width: 475px) {
-  .container {
+  .container {  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-wrap: wrap;
+  }
+  logo{
+    width: 40px; 
+    height: 40px;
+  }
+  .conteneur-flex {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
+  
+  .div20 {
+    flex: 100%;
+    background-color: #435966;
+  }
+  
+  .div80 {
+    flex: 100%;
+  }
+  .nom{
+    font-size: 1rem;
+}
+.nom1{
+  font-size: 2rem;
+}
+.taille-texte {
+  width: 100%;
+}
+.nom2 {
+  font-size: 3rem;
+}
 }
