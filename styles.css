@@ -1,11 +1,3 @@
-body {
-  display: contents;
-  font-family: Calibri, sans-serif;
-}
-
-html {
-  width: 100%;
-}
 p, div, h1, h2, h3, h4, h5, h6 {
   font-family: Calibri, sans-serif;
 }
@@ -63,20 +55,36 @@ font-size: 4rem;
   flex-direction: column;
   justify-content: flex-start;
 }
+/* Styles par défaut pour les écrans de taille moyenne et plus grands */
 .conteneur-flex {
   display: flex;
   width: 100%;
-  flex-grow: 1;
 }
+
 .div20 {
-  flex: 0 0 20%; 
+  flex: 0 0 20%;
   background-color: #435966;
 }
 
 .div80 {
   flex: 0 0 80%;
 }
-.taille-texte{
-width: 100%;
-padding: 0 10rem;
+
+.taille-texte {
+  width: 100%;
+  padding: 0 2rem; /* Utilisation d'une valeur relative */
+}
+@media screen and (max-width: 767px) {
+  .conteneur-flex {
+    flex-direction: column;
+  }
+
+  .div20,
+  .div80 {
+    flex: 0 0 100%;
+  }
+
+  .taille-texte {
+    padding: 0 1rem; /* Ajustement pour les écrans plus petits */
+  }
 }
