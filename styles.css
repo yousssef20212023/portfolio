@@ -9,7 +9,7 @@ p, div, h1, h2, h3, h4, h5, h6 {
 font-size: 4rem;
 }
 .style-paragraphe3{
-  font-size: 40px;
+  font-size: 1rem;
   padding: 1em;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,7 @@ font-size: 4rem;
   text-align: center;
 }
 .taille{
-  padding: 20px;
+  padding: 1rem;
   display: flex;
 }
 .titre{
@@ -74,8 +74,26 @@ font-size: 4rem;
   width: 100%;
   padding: 0 2rem; /* Utilisation d'une valeur relative */
 }
-@media screen and (max-width: 767px) {
-  .conteneur-flex {
+/* Ajout de règles de média query pour les écrans de petite taille (smartphones) */
+@media screen and (max-width: 3500px) 
+{
+.conteneur-flex {
+    flex-direction: column;
+  }
+
+  .div20,
+  .div80 {
+    flex: 0 0 100%;
+  }
+
+  .taille-texte {
+    padding: 0 1rem; /* Ajustement pour les écrans plus petits */
+  }
+}
+/* Ajout de règles de média query pour les écrans de petite taille (smartphones) */
+@media screen and (max-width: 767px) 
+{
+.conteneur-flex {
     flex-direction: column;
   }
 
