@@ -3,8 +3,8 @@ p, div, h1, h2, h3, h4, h5, h6 {
   font-family: Calibri, sans-serif;
 }
 .logo{
-  width: 200px; 
-  height: 200px;
+  width: 4rem; 
+  height: 4rem;
 }
 .style-paragraphe1{
   background-color: #93a1a8;
@@ -49,6 +49,8 @@ font-size: 4rem;
   list-style-type: none;
   font-size: 4rem;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .taille{
   padding: 1rem;
@@ -77,6 +79,10 @@ font-size: 4rem;
 .taille-texte {
   width: 100%;
   padding: 0 2rem; /* Utilisation d'une valeur relative */
+  
+}
+.taille-texte1 {
+  width: 100%;
 }
 /* Règles pour différentes tailles d'écran plus grandes */
 @media (max-width: 1536px) {
@@ -113,58 +119,8 @@ font-size: 4rem;
     flex-wrap: wrap;
   }
   logo{
-    width: 40px; 
-    height: 40px;
-  }
-  .conteneur-flex {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .div20 {
-    flex: 100%;
-    background-color: #435966;
-  }
-  
-  .div80 {
-    flex: 100%;
-  }
-  .nom{
-    font-size: 1rem;
-}
-.nom1{
-  font-size: 2rem;
-}
-.taille-texte {
-  width: 100%;
-}
-.nom2 {
-  font-size: 3rem;
-}
-.style-paragraphe2 {
-  font-size: 1rem;
-}
-}
-
-@media (max-width: 768px) {
-  body, html {
-    margin: 0;
-    padding: 0;
-  }
-
-  .container {  
-    width: 100%;
-    margin: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
-    max-width: 640px;
-    flex-wrap: wrap;
-  }
-  logo{
-    width: 40px; 
-    height: 40px;
+    width: 4rem; 
+    height: 4rem;
   }
   .conteneur-flex {
     display: flex;
@@ -203,6 +159,12 @@ font-size: 4rem;
     margin: 0;
     padding: 0;
   }
+  .style-ul1 {
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    text-align: center;
+  }
   .container {  
     width: 100%;
     margin: 0;
@@ -211,8 +173,8 @@ font-size: 4rem;
     flex-wrap: wrap;
   }
   logo{
-    width: 40px; 
-    height: 40px;
+    width: 4rem; 
+    height: 4rem;
   }
   .conteneur-flex {
     display: flex;
