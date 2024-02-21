@@ -8,7 +8,6 @@ Bienvenue sur la page GitHub de mon site web personnel qui reflète mon Curricul
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Déploiement
 
