@@ -3,13 +3,13 @@ p, div, h1, h2, h3, h4, h5, h6 {
   font-family: Calibri, sans-serif;
 }
 .logo{
-  width: 25%;
-  height: 25%;
+  width: 15%;
+  height: 15%;
 }
 .logo:hover{
   transform: rotate(45deg);
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
 }
 .style-paragraphe1{
   background-color: #93a1a8;
@@ -20,8 +20,6 @@ font-size: 6rem;
 .style-paragraphe3{
   font-size: 1rem;
   padding: 1em;
-  flex-direction: column;
-  align-items: center;
   font-size: 3rem;
 }
 .style-paragraphe4{
@@ -49,7 +47,7 @@ font-size: 6rem;
 .style-partie{
   font-weight: bold;
 }
-.style-ul1 {
+.style-ul1{
   color: white;
   list-style-type: none;
   font-size: 4rem;
@@ -72,13 +70,23 @@ font-size: 6rem;
   width: 100%;
 }
 
-.div20 {
-  flex: 0 0 20%;
+.div30 {
+  flex: 0 0 30%;
   background-color: #435966;
 }
+.logo1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
 
-.div80 {
-  flex: 0 0 80%;
+.logo1 img {
+  width: 10rem;
+}
+.div70 {
+  flex: 0 0 70%;
 }
 
 .taille-texte {
@@ -126,22 +134,25 @@ font-size: 6rem;
     max-width: 640px;
     flex-wrap: wrap;
   }
-  logo{
-    width: 4rem; 
-    height: 4rem;
-  }
   .conteneur-flex {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
-  .div20 {
+  .div30 {
     flex: 100%;
     background-color: #435966;
   }
-  
-  .div80 {
+  .logo{
+    width: 4rem; 
+    height: 4rem;
+  }
+  .logo1{
+    flex-direction: row;
+    width: 2rem;
+    height: 2rem;
+  }
+  .div70 {
     flex: 100%;
   }
   .nom{
