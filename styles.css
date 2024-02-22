@@ -124,6 +124,7 @@ padding-left: 15rem;
   body, html {
     margin: 0;
     padding: 0;
+    width: 98%;
   }
 
   .container {  
@@ -186,6 +187,7 @@ padding-left: 15rem;
   body, html {
     margin: 0;
     padding: 0;
+    width: 98%;
   }
   .style-ul1 {
     color: white;
