@@ -16,6 +16,7 @@ p, div, h1, h2, h3, h4, h5, h6 {
 }
 .style-paragraphe2{
 font-size: 6rem;
+padding-left: 15rem;
 }
 .style-paragraphe3{
   font-size: 1rem;
@@ -50,7 +51,7 @@ font-size: 6rem;
 .style-ul1{
   color: white;
   list-style-type: none;
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -142,15 +143,22 @@ font-size: 6rem;
   .div30 {
     flex: 100%;
     background-color: #435966;
+    
+  }
+  .logo1 img {
+    width: 2rem;
   }
   .logo{
     width: 4rem; 
     height: 4rem;
   }
   .logo1{
+    display: flex;
     flex-direction: row;
-    width: 2rem;
-    height: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
   }
   .div70 {
     flex: 100%;
@@ -168,9 +176,10 @@ font-size: 6rem;
 .nom2 {
   font-size: 3rem;
 }
-.style-paragraphe2 {
+.style-paragraphe2{
   font-size: 1rem;
-}
+  padding-left: 0;
+  }
 }
 
 @media (max-width: 475px) {
@@ -224,5 +233,14 @@ font-size: 6rem;
 }
 .style-paragraphe2 {
   font-size: 1rem;
+  padding-left: 0;
+}
+.logo1{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 }
