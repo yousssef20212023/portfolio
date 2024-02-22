@@ -3,14 +3,19 @@ p, div, h1, h2, h3, h4, h5, h6 {
   font-family: Calibri, sans-serif;
 }
 .logo{
-  width: 10rem; 
-  height: 10rem;
+  width: 25%;
+  height: 25%;
+}
+.logo:hover{
+  transform: rotate(45deg);
+  width: 50%;
+  height: 50%;
 }
 .style-paragraphe1{
   background-color: #93a1a8;
 }
 .style-paragraphe2{
-font-size: 4rem;
+font-size: 6rem;
 }
 .style-paragraphe3{
   font-size: 1rem;
@@ -78,11 +83,14 @@ font-size: 4rem;
 
 .taille-texte {
   width: 100%;
-  padding: 0 2rem; /* Utilisation d'une valeur relative */
+  padding: 0 4rem; /* Utilisation d'une valeur relative */
   
 }
 .taille-texte1 {
   width: 100%;
+}
+.mail{
+
 }
 /* Règles pour différentes tailles d'écran plus grandes */
 @media (max-width: 1536px) {
