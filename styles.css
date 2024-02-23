@@ -171,7 +171,7 @@ padding-left: 15rem;
   font-size: 2rem;
 }
 .taille-texte {
-  width: 100%;
+  width: 104%;
   padding: 0px 0rem;
 }
 .nom2 {
@@ -180,6 +180,12 @@ padding-left: 15rem;
 .style-paragraphe2{
   font-size: 1rem;
   padding-left: 0;
+  width: 98%;
+  padding-right: 2rem;
+  }
+  .style-paragraphe4{
+    background-color: #93a1a8;
+    padding: 0px;
   }
 }
 
@@ -227,7 +233,7 @@ padding-left: 15rem;
   font-size: 2rem;
 }
 .taille-texte {
-  width: 100%;
+  width: 104%;
   padding: 0px 0rem;
 }
 .nom2 {
@@ -236,6 +242,8 @@ padding-left: 15rem;
 .style-paragraphe2 {
   font-size: 1rem;
   padding-left: 0;
+  width: 98%;
+  padding-right: 2rem;
 }
 .logo1{
   display: flex;
@@ -244,5 +252,9 @@ padding-left: 15rem;
   margin-top: 1rem;
   justify-content: center;
   align-items: center;
+}
+.style-paragraphe4{
+  background-color: #93a1a8;
+  padding: 0px;
 }
 }
