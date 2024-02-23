@@ -72,7 +72,7 @@ padding-left: 15rem;
 }
 
 .div30 {
-  flex: 0 0 30%;
+  flex: 1 30%;
   background-color: #435966;
 }
 .logo1{
@@ -87,13 +87,11 @@ padding-left: 15rem;
   width: 10rem;
 }
 .div70 {
-  flex: 0 0 70%;
+  flex: 2 70%;
 }
 
 .taille-texte {
-  width: 100%;
   padding: 0 4rem; /* Utilisation d'une valeur relative */
-  
 }
 .taille-texte1 {
   width: 100%;
@@ -119,27 +117,22 @@ padding-left: 15rem;
     max-width: 768px;
   }
 }
-
 @media (max-width: 768px) {
   body, html {
     margin: 0;
     padding: 0;
-    width: 98%;
   }
-
+  p, div, h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+  }
   .container {  
-    width: 100%;
     margin: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
     max-width: 640px;
     flex-wrap: wrap;
   }
   .conteneur-flex {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
   .div30 {
     flex: 100%;
@@ -156,7 +149,6 @@ padding-left: 15rem;
   .logo1{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     margin-top: 1rem;
     justify-content: center;
     align-items: center;
@@ -164,24 +156,22 @@ padding-left: 15rem;
   .div70 {
     flex: 100%;
   }
+  .style-competences{
+    color : #435966;
+    width: 98%;
+  }
   .nom{
     font-size: 1rem;
 }
 .nom1{
   font-size: 2rem;
 }
-.taille-texte {
-  width: 104%;
-  padding: 0px 0rem;
-}
 .nom2 {
   font-size: 3rem;
 }
 .style-paragraphe2{
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding-left: 0;
-  width: 98%;
-  padding-right: 2rem;
   }
   .style-paragraphe4{
     background-color: #93a1a8;
@@ -193,7 +183,9 @@ padding-left: 15rem;
   body, html {
     margin: 0;
     padding: 0;
-    width: 98%;
+  }
+  p, div, h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
   }
   .style-ul1 {
     color: white;
@@ -202,10 +194,7 @@ padding-left: 15rem;
     text-align: center;
   }
   .container {  
-    width: 100%;
     margin: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     flex-wrap: wrap;
   }
   logo{
@@ -215,7 +204,6 @@ padding-left: 15rem;
   .conteneur-flex {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
   
   .div20 {
@@ -226,29 +214,26 @@ padding-left: 15rem;
   .div80 {
     flex: 100%;
   }
+  .style-competences{
+    color : #435966;
+    width: 98%;
+  }
   .nom{
     font-size: 1rem;
 }
 .nom1{
   font-size: 2rem;
 }
-.taille-texte {
-  width: 104%;
-  padding: 0px 0rem;
-}
 .nom2 {
   font-size: 3rem;
 }
 .style-paragraphe2 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding-left: 0;
-  width: 98%;
-  padding-right: 2rem;
 }
 .logo1{
   display: flex;
   flex-direction: row;
-  gap: 1rem;
   margin-top: 1rem;
   justify-content: center;
   align-items: center;
